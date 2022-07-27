@@ -30,8 +30,8 @@ class MyAppState extends State<MyApp> {
   @override // Does not matter when you do not use, used only for decoration
   Widget build(BuildContext context) {
     var questions = [
-      "what's your favorite Colour?",
-      "what's your favorite Animal?"
+      "what's your favorite Courses?",
+      "what did you graduate?"
     ];
     return MaterialApp(
         home: Scaffold(
