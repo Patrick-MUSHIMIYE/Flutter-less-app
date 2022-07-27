@@ -31,7 +31,7 @@ class MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     var questions = [
       "what's your favorite Courses?",
-      "what did you graduate?"
+      "when did you graduate?"
     ];
     return MaterialApp(
         home: Scaffold(
